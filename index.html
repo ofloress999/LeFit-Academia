@@ -6,7 +6,10 @@
     <title>Lefit Academia</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+
+    <script defer src="js/script.js"></script>
 </head>
 <body>
     
@@ -17,11 +20,18 @@
                 <div class="header-logo">
                     <img src="images/logo.jpg">
                 </div>
+
+                <div class="menu-hamburguer" id="menu-hamburguer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
                 <div class="header-nav">
                     <ul>
                         <a href="#inicio"><li>Início</li></a>
                         <a href="#"><li>Planos</li></a>
-                        <a href="#"><li>Benefícios</li></a>
+                        <a href="#info-section"><li>Benefícios</li></a>
                         <a href="#"><li>Depoimentos</li></a>
                         <a href="#"><li>Sobre nós</li></a>
                         <a href="#"><li>Contato</li></a>
@@ -38,10 +48,13 @@
                 <h1>Evolua Seu <span>Corpo e Sua Mente</span></h1>
                 <p>1 ano de compromisso e qualidade em Poço Fundo/MG</p>
                 <p>Junte-se a mais de 3.000 alunos que já transformaram suas vidas</p>
+                <a href="https://api.whatsapp.com/send?phone=5535998760218&text=Ol%C3%A1!%20Poderia%20me%20passar%20mais%20informa%C3%A7%C3%B5es%3F" target="_blank">
                 <button class="btn">
                     <img src="images/balao-de-fala.png">
                     Fale Conosco no WhatsApp
                 </button>
+                </a>
+                
             </div>
         </div>
     </section>
@@ -115,6 +128,289 @@
 
             </div>
         </div>
+    </section>
+
+    <!--MODALIDADES-->
+    <section id="modalidades-section">
+        <div class="container">
+            <div class="modalidades-conteudo">
+                <div class="modalidades-texto">
+                    <h1>Modalidades Oferecidas</h1>
+                    <p>Atividades pensadas para diferentes perfis e objetivos</p>
+                </div>
+
+                <div class="modalidades-cards">
+
+                    <div class="modalidades-card-line">
+                        <div class="modalidade-card">
+                            <div class="modalidade-img">
+                                <img src="images/fire-solid-full.svg">
+                            </div>
+                            <h3>Spinning</h3>
+                        </div>
+                        <div class="modalidade-card">
+                            <div class="modalidade-img">
+                                <img src="images/music-solid-full.svg">
+                            </div>
+                            <h3>Dance</h3>
+                        </div>
+                        <div class="modalidade-card">
+                            <div class="modalidade-img">
+                                <img src="images/heart-solid-full.svg">
+                            </div>
+                            <h3>Fit Dance</h3>
+                        </div>
+                        <div class="modalidade-card">
+                            <div class="modalidade-img">
+                                <img src="images/bolt-solid-full.svg">
+                            </div>
+                            <h3>Jump</h3>
+                        </div>
+                    </div>
+
+                    <div class="modalidades-card-line">
+                        <div class="modalidade-card">
+                            <div class="modalidade-img">
+                                <img src="images/users-solid-full.svg">
+                            </div>
+                            <h3>Step</h3>
+                        </div>
+                        <div class="modalidade-card">
+                            <div class="modalidade-img">
+                                <img src="images/dumbbell-solid-full.svg">
+                            </div>
+                            <h3>Musculação</h3>
+                        </div>
+                        <div class="modalidade-card">
+                            <div class="modalidade-img">
+                                <img src="images/person-walking-solid-full.svg">
+                            </div>
+                            <h3>Personal Trainer</h3>
+                        </div>
+                        <div class="modalidade-card">
+                            <div class="modalidade-img">
+                                <img src="images/drum-solid-full.svg">
+                            </div>
+                            <h3>Zumba</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--APOIO DE ATLETAS-->
+    <section id="apoio-section">
+        <div class="container">
+            <div class="apoio-conteudo">
+                <div class="apoio-imagem">
+                    <img src="images/estante-trofeus.png">
+                </div>
+                <div class="apoio-texto">
+                    <div class="apoio-texto-titulo">
+                        <!--
+                        <img src="images/trophy-solid-full.svg">
+                        -->
+                        <h1>Incentivamos o esporte. <br> 
+                            <span>Desenvolvemos campeões.</span></h1>
+                    </div>
+                    <div class="apoio-texto-paragrafo">
+                        <p>
+                            Na LeFit, o esporte é um agente de transformação. 
+                            Valorizamos e apoiamos atletas que inspiram, 
+                            competem e fortalecem nossa comunidade, ao mesmo 
+                            tempo em que incentivamos e acolhemos todos que 
+                            decidem dar o primeiro passo em sua jornada.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--ONDE CADA VITORIA COMEÇA-->
+    <section id="onde-comeca-section">
+        <div class="container">
+            <div class="onde-comeca-conteudo">
+                <div class="onde-comeca-titulo">
+                    <h1>A Base de Cada Vitória</h1>
+                    <p>Treinos intensos, foco contínuo e disciplina constante.</p>
+                </div>
+                <div class="onde-comeca-images">
+                    <div class="img-hover" style="background-image: url('images/imagem-one.png');"></div>
+                    <div class="img-hover" style="background-image: url('images/imagem-two.png');"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--COMPROMISSO ALÉM DO TREINO-->
+    <section id="compromisso-section">
+        <div class="container">
+            <div class="compromisso-conteudo">
+                <div class="compromisso-titulo">
+                    <h1>Compromisso Além do Treino</h1>
+                    <p>A LeFit entende que o apoio ao atleta vai além da preparação física, especialmente em um país onde o esporte carece de maior incentivo.</p>
+                </div>
+                <div class="compromisso-images">
+                    <div class="img-hover" style="background-image: url('images/professor.png');">
+                        <p>Fortalecendo o Fisiculturismo</p>
+                    </div>
+                    <div class="img-hover" style="background-image: url('images/mma.png');">
+                        <p>Fortalecendo o MMA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FRASE CONTEUDO-->
+    <section id="frase-section">
+        <div class="container">
+            <div class="frase-conteudo">
+                <h1>
+                    <span>"</span>LeFit é onde o esporte se transforma em disciplina, resultado e excelência, do primeiro passo à conquista.<span>"</span>
+                </h1>
+                <div class="linha-conteudo"></div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!--PLANOS CONTEUDO-->
+    <section id="planos">
+        <div class="container">
+            <div class="planos-conteudo">
+                <div class="planos-titulo">
+                    <h1>Escolha Seu Plano</h1>
+                    <p>Flexibilidade e suporte para você começar sua evolução hoje.</p>
+                </div>
+
+                <div class="planos-cards">
+
+                    <div class="planos-card">
+                        <div class="planos-card-titulo">
+                            <img src="images/trophy-solid-full.svg">
+                            <h1>LeFit GOLD</h1>
+                            <p>Ideal para quem busca comprometimento e resultados</p>
+                        </div>
+                        <div class="planos-card-preco">
+                            <h1><span>R$</span>94,90</h1>
+                            <p>12 meses</p>
+                        </div>
+                        <div class="planos-card-beneficios">
+                            <div class="beneficios">
+                                <img src="images/check-solid-full.svg">
+                                Acesso à unidade local
+                            </div>
+                            <div class="beneficios">
+                                <img src="images/check-solid-full.svg">
+                                Todas as atividades inclusas
+                            </div>
+                            <div class="beneficios">
+                                <img src="images/check-solid-full.svg">
+                                App de treinos personalizado
+                            </div>
+                            <div class="beneficios">
+                                <img src="images/check-solid-full.svg">
+                                Cardio com simulação de escada
+                            </div>
+                            <div class="beneficios">
+                                <img src="images/check-solid-full.svg">
+                                2 convidados por mês
+                            </div>
+                        </div>
+                        <button class="btn">
+                            <img src="images/balao-de-fala.png">
+                            Garantir meu plano
+                        </button>
+                    </div>
+
+                    <div class="planos-card plano-black">
+                        <div class="planos-card-titulo">
+                            <img src="images/trophy-solid-full.svg">
+                            <h1>BLACK</h1>
+                            <p>Melhor custo-benefício para transformação completa</p>
+                        </div>
+                        <div class="planos-card-preco">
+                            <h1><span>R$</span>99,90</h1>
+                            <p>12 meses</p>
+                        </div>
+                        <div class="planos-card-beneficios">
+                            <div class="beneficios">
+                                <img src="images/check-solid-full.svg">
+                                Acesso à unidade local
+                            </div>
+                            <div class="beneficios">
+                                <img src="images/check-solid-full.svg">
+                                Todas as atividades inclusas
+                            </div>
+                            <div class="beneficios">
+                                <img src="images/check-solid-full.svg">
+                                5 convidados por mês
+                            </div>
+                            <div class="beneficios">
+                                <img src="images/check-solid-full.svg">
+                                Treinos personalizados
+                            </div>
+                            <div class="beneficios">
+                                <img src="images/check-solid-full.svg">
+                                App de treinos
+                            </div>
+                        </div>
+                        <button class="btn">
+                            <img src="images/balao-de-fala.png">
+                            Garantiro plano BLACK
+                        </button>
+                    </div>
+
+                    <div class="planos-card">
+                        <div class="planos-card-titulo">
+                            <img src="images/trophy-solid-full.svg">
+                            <h1>MENSAL</h1>
+                            <p>Flexibilidade total, cancele quando quiser</p>
+                        </div>
+                        <div class="planos-card-preco">
+                            <h1><span>R$</span>129,90</h1>
+                            <p>Sem fidelidade</p>
+                        </div>
+                        <div class="planos-card-beneficios">
+                            <div class="beneficios">
+                                <img src="images/check-solid-full.svg">
+                                Acesso à unidade local
+                            </div>
+                            <div class="beneficios">
+                                <img src="images/check-solid-full.svg">
+                                Todas as atividades inclusas
+                            </div>
+                            <div class="beneficios">
+                                <img src="images/check-solid-full.svg">
+                                Sem contrato de fidelidade
+                            </div>
+                            <div class="beneficios">
+                                <img src="images/check-solid-full.svg">
+                                Cancele quando quiser
+                            </div>
+                        </div>
+                        <button class="btn btn-last">
+                            <img src="images/balao-de-fala.png">
+                            Garantiro Mensal
+                        </button>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- ELEMENTOS DO BACKGROUND -->
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
     </section>
 
 
